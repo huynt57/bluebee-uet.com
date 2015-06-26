@@ -1,0 +1,602 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="en" />
+
+        <!-- blueprint CSS framework -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" />
+        <link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/motioncss.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/motioncss-widgets.css" />
+
+
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/rs-settings.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/switcher.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/magnific-popup.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/responsive.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/animation.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/colors/color_11.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/ava.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/dropzone.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/basic.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/bluebee.com/themes/welcome/assets/css/component.css" />
+
+
+        <!-- javascript -->
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/g-alert.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/jquery.carousello.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/jquery.flexslider.js"></script>
+
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/jquery.isotope.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/jquery.magnific-popup.js"></script>
+
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/jquery.simpleplaceholder.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/jquery.smoothScroll.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/navToSelect.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/plugins.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/waypoints.min.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/w-lang.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/w-search.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/w-tabs.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/w-timeline.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/dropzone.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/w-switcher.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/classie.js"></script>
+        <script type="text/javascript" src="/bluebee.com/themes/welcome/assets/js/cbpScroller.js"></script>
+
+        <!-- Pop-up -->
+        <script>
+            $(document).ready(function() {
+                $('.popup-with-form').magnificPopup({
+                    type: 'inline',
+                    preloader: false,
+                    focus: '#name',
+                    // When elemened is focused, some mobile browsers in some cases zoom in
+                    // It looks not nice, so we disable it:
+                    callbacks: {
+                        beforeOpen: function() {
+                            if ($(window).width() < 700) {
+                                this.st.focus = false;
+                            } else {
+                                this.st.focus = '#name';
+                            }
+                        }
+                    }
+                });
+            });
+        </script>
+    </head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body class="l-body home" style="background-color: white">
+
+    <!-- CANVAS -->
+    <div class="l-canvas type_wide col_cont headerpos_fixed headertype_extended">
+        <div class="l-canvas-h">
+
+            <!-- HEADER -->
+            <div class="l-header">
+                <div class="l-header-h">
+
+                    <div class="l-subheader at_middle" style="max-height: 60px">
+                        <div class="l-subheader-h i-cf">
+                            <!-- LOGO -->
+                            <div class="w-logo">
+                                <div class="w-logo-h">
+                                    <a class="w-logo-link" href="/bluebee.com" class="w-nav-anchor level_1">
+                                        <img class="w-logo-img" style="padding: 0px;" src="/bluebee.com/themes/welcome/assets/img/logo.jpg" alt="BlueBee" />
+                                        <span class="w-logo-title">
+                                            <span class="w-logo-title-h">BlueBee</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="w-logo">
+                                <div class="w-logo-h">
+                                    <a class="w-logo-link" href="/bluebee.com" class="w-nav-anchor level_1">
+                                        <img class="w-logo-img" style="padding: 0px;" src="/bluebee.com/themes/welcome/assets/img/logo2.jpg" alt="BlueBee" />
+                                        <span class="w-logo-title">
+                                            <span class="w-logo-title-h">BlueBee</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- SEARCH -->
+                            <div class="w-search submit_inside">
+                            </div>
+
+                            <!-- NAV -->
+                            <nav class="w-nav ">
+                            </nav>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /HEADER -->
+
+            <!-- MAIN -->
+            <div class="l-main" style="padding-top: 0px;">
+                <script type="text/javascript">
+    $(document).ready(function() {
+        var form = $('#loginform');
+        form.submit(function(event) {
+            var data = form.serialize();
+            $.ajax({
+                type: "POST",
+                url: '/bluebee.com/welcomePage/Login',
+                data: data,
+                success: function(data) {
+                    var json = data;
+                    var result = $.parseJSON(json);
+                    if (result.success) {
+                        var item = $('<div class="g-form-row-field">' +
+                                '<div id="success" class="g-alert type_success">' +
+                                '<div class="g-alert-body" style="text-align: center">' +
+                                '<p id="login-result"><b>' + result.message + '</b></p>' +
+                                '</div>' +
+                                '</div>' +
+                                '</div>');
+                        var hide = $('#alert').css('display');
+                        if (hide == 'none') {
+                            $('#alert').html(result.message).slideDown('slow');
+                        } else {
+                            $('#alert').slideUp(function() {
+                                $('#alert').html(result.message).slideDown('slow');
+                            });
+                        }
+                        setTimeout(function() {
+                            window.location.href = result.url;
+                        }, 800);
+                    }
+                    else {
+                        var item = $('<div class="g-form-row-field">' +
+                                '<div id="error" class="g-alert type_error">' +
+                                '<div class="g-alert-body" style="text-align: center">' +
+                                '<p id="login-result"><b>' + result.message + '</b></p>' +
+                                '</div>' +
+                                '</div>' +
+                                '</div>');
+                        var hide = $('#alert').css('display');
+                        if (hide == 'none') {
+                            $('#alert').html(item).slideDown('slow');
+                        } else {
+                            $('#alert').slideUp(function() {
+                                $('#alert').html(item).slideDown('slow');
+                            });
+                        }
+                    }
+                }
+            });
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        });
+    });
+    
+</script>
+
+<!-- MAIN -->
+<div id="first-view">
+    <div class="l-submain" style="height: 100%; padding-top: 10px">
+        <div class="l-submain-h i-cf">
+            <div class="l-content">
+                <div class="l-content-h i-widgets">
+                    <div class="alert" id="alert" style="position: absolute; z-index: 99; width: 100%; top: -55px; text-align: center">
+                        
+                    </div>
+                    <div class="g-cols" style="margin-top: 10%; margin-bottom: 0">
+                        <div class="two-thirds">
+                            <div class="w-gallery type_slider">
+                                <div class="w-gallery-h">
+                                    <div class="w-gallery-main">
+                                        <div class="w-gallery-main-h flexslider flex-loading" style="margin: auto;<!--  border: 5px solid black -->">
+                                            <ul class="slides">
+                                                <li>
+                                                    <div>
+                                                        <h3>Chào mừng tới website BlueBee-UET</h3>
+                                                        <img style="height: 120px; width: 120px; margin: auto" alt="" src="/bluebee.com/themes/welcome/assets/img/logo.jpg" />
+                                                        <h4>Ong Xanh Mặt Ngầu</h4>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <div class="g-cols">
+                                                            <div class="one-half">
+                                                                <img height="375" alt="" src="/bluebee.com/themes/welcome/assets/img/demo/big-2.jpg" />
+                                                            </div>
+                                                            <div class="one-half">
+                                                                <div class="wpb_text_column ">
+                                                                    <div class="wpb_wrapper" style="text-align: left">
+                                                                        <h3>Thông tin sơ lược</h3>
+                                                                        <blockquote>
+                                                                            Đây là 1 dự án website với mong muốn giúp đỡ đắc lực cho việc đánh giá học tập của các bạn.
+                                                                        </blockquote>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <div class="g-cols">
+                                                            <div class="one-half">
+                                                                <img height="375" alt="" src="/bluebee.com/themes/welcome/assets/img/our-goal.jpg" />
+                                                            </div>
+                                                            <div class="one-half">
+                                                                <div class="wpb_text_column ">
+                                                                    <div class="wpb_wrapper" style="text-align: left">
+                                                                        <h3>Mục tiêu</h3>
+                                                                        <blockquote>
+                                                                            <ul>
+                                                                                <li><b>mục tiêu 1</b> Đăng ký môn học dễ dễ dàng hơn</li>
+                                                                                <li><b>mục tiêu 2</b> Bàn luận học tập tốt hơn</li>
+                                                                                <li><b>mục tiêu 3</b> Nêu ý kiến của mình 1 cách thẳng thắn</li>
+                                                                            </ul>
+                                                                        </blockquote>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <style type="text/css"></style>
+                                            <ul class="flex-direction-nav">
+                                                <li>
+                                                    <a href="#" class="flex-prev" style="color: black; border-bottom: none; ">Previous</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="flex-next" style="color: black; border-bottom: none">Next</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                jQuery(window).load(function() {
+                                    jQuery(".flexslider").flexslider({
+                                        directionalNav: true,
+                                        controlNav: false,
+                                        smoothHeight: true,
+                                        pauseOnHover: true,
+                                        start: function(slider) {
+                                            jQuery(".flexslider").removeClass("flex-loading");
+                                        }
+                                    });
+                                });</script>
+                        </div>
+                        <div class="one-third">
+                            <style type="text/css">
+                                .fix-g-form {
+                                    text-align: center;
+                                }
+                            </style>
+                            <div class="w-tabs layout_accordion" style="border: 2px dashed #429edb; border-radius: 5px; height: 398px">
+                                <div class="w-tabs-h">
+                                    <div class="w-tabs-section active" style="border: none;">
+                                        <div class="w-tabs-section-title">
+                                            <span class="w-tabs-section-title-text fix-g-form" style="margin: 0 0 -2px 0; padding: 0">Đăng Nhập</span>
+                                        </div>
+                                        <div class="w-tabs-section-content" style="display: none;">
+                                            <div class="w-tabs-section-content-h">
+                                                <div class="wpb_text_column ">
+                                                    <div class="wpb_wrapper">
+                                                        <form class="g-form" action="" method="POST" id="loginform">
+                                                            <div class="g-form-group">
+                                                                <div class="g-form-group-rows">
+                                                                    <div class="g-form-row">
+                                                                        <div class="g-form-row-field">
+                                                                            <div class="g-input">
+                                                                                <input type="text" name="username" id="contact_username" value="" placeholder="Email">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="g-form-row">
+                                                                        <div class="g-form-row-field">
+
+                                                                            <div class="g-input">
+                                                                                <input type="password" name="Password" id="Password" value="" placeholder="Mật Khẩu *">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="g-form-row">
+                                                                        <div class="checkbox" style="display: block; min-height: 20px; margin: -10px 0 0 0; padding-left: 20px;">
+                                                                            <label style="margin-bottom: 0; font-weight: normal; cursor:pointer;float: left">
+                                                                                <input type="checkbox" style="float:left; line-height: normal; margin: 5px 0 0 -20px;">
+                                                                                <p style="margin-left: -5px">Duy trì Đăng Nhập</p>
+                                                                            </label>
+                                                                            <a href="quenmatkhau" style="float:right">Quên Mật Khẩu?</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="g-form-row"  style="padding-bottom: 5px; margin-top: -5px">
+                                                                        <div class="g-form-row-field">
+                                                                            <button id="button_submit" class="g-btn type_primary" id="Dang nhap" type="submit" name="Submit" value="Submit" style="width: 100%">Đăng Nhập</button>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="g-form-row">
+    
+        <div class="g-form-row-field">
+            <a href="/bluebee.com/welcomePage/fb_login" class="g-btn type_primary size_small" style="background-color: #1265A8; width: 100%" type="submit">
+                <i class="icon-facebook"></i>
+                <span>Đăng Nhập qua Facebook</span>
+            </a>
+        </div>
+   
+</div>                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-tabs-section" style="border-top: 2px dashed #429edb">
+                                        
+<script type="text/javascript">
+    $(document).ready(function() {
+        var form = $('#signupform');
+        form.submit(function(event) {
+            $('#res').html('');
+            var data = form.serialize();
+            $.ajax({
+                type: "POST",
+                url: '/bluebee.com/welcomePage/signup',
+                data: data,
+                success: function(data) {
+                    var json = data;
+                    var result = $.parseJSON(json);
+                    //       $('#res').html(result.message);
+                    if (result.success) {
+                        var item = $('<div class="g-form-row-field">' +
+                                '<div id="success" class="g-alert type_success">' +
+                                '<div class="g-alert-body">' +
+                                '<p><b>' + result.message + '</b></p>' +
+                                '</div>' +
+                                '</div>' +
+                                '</div>');
+                        var hide = $('#alert').css('display');
+                        if (hide == 'none') {
+                            $('#alert').html(item).slideDown('slow');
+                        } else {
+                            $('#alert').slideUp(function(){
+                                $('#alert').html(item).slideDown('slow');
+                            });
+                        }
+
+                    }
+                    else {
+
+                        var item = $('<div class="g-form-row-field">' +
+                                '<div id="error" class="g-alert type_error">' +
+                                '<div class="g-alert-body" style="text-align: center">' +
+                                '<p><b>' + result.message + '</b></p>' +
+                                '</div>' +
+                                '</div>' +
+                                '</div>');
+
+                        var hide = $('#alert').css('display');
+                        if (hide == 'none') {
+                            $('#alert').html(item).slideDown('slow');
+                        } else {
+                            $('#alert').slideUp(function(){
+                                $('#alert').html(item).slideDown('slow');
+                            });
+                        }
+                    }
+                }
+            });
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        });
+    });
+</script>
+
+<div id="signuparea" class="w-tabs-section-title">
+    <span class="w-tabs-section-title-text fix-g-form" style="margin: 0 0 0 5px; padding: 0">Chưa có Tài Khoản? Đăng Ký!</span>
+</div>
+<div class="w-tabs-section-content" style="display: none;">
+    <div class="w-tabs-section-content-h">
+        <div class="wpb_text_column ">
+            <div class="wpb_wrapper">
+                <form class="g-form" action="/bluebee.com/welcomePage/signup" method="POST" id="signupform">
+                    <input type="hidden" name="action" value="contact">
+                    <div class="g-form-group">
+                        <div class="g-form-group-rows">
+                            <div class="g-form-row">
+                                <div class="g-form-row-field">
+                                    <div class="g-input">
+                                        <input type="text" name="contact_name" id="contact_name" value="" placeholder="Tên của bạn *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="g-form-row">
+                                <div class="g-form-row-field">
+                                    <div class="g-input">
+                                        <input type="text" name="contact_email" id="contact_email" value="" placeholder="Email của bạn *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="g-form-row">
+                                <div class="g-form-row-field">
+                                    <div class="g-input">
+                                        <input type="password" name="Password" id="Password" value="" placeholder="Mật Khẩu *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="g-form-row">
+                                <div class="g-form-row-field">
+                                    <!--                                    <div class="g-alert type_success with_close" style="position: absolute; z-index: 2; width: 89%">
+                                                                            <div class="g-alert-close"> ✕ </div>
+                                                                            <div class="g-alert-body">
+                                                                                <p><b>Success Message</b>. Your Text Goes Here.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="g-alert type_error with_close" style="position: absolute; z-index: 2; width: 89%">
+                                                                            <div class="g-alert-close"> ✕ </div>
+                                                                            <div class="g-alert-body">
+                                                                                <p><b>Success Message</b>. Your Text Goes Here.</p>
+                                                                            </div>
+                                                                        </div>-->
+                                    <button class="g-btn type_primary" type="submit" name="Submit" value="Submit" style="width: 100%">
+                                        <i class="icon-pencil"></i>
+                                        Đăng Ký
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-actionbox controls_aside color_primary" style="padding: 20px 40px; margin-top: -20px">
+        <div class="w-actionbox-h" style="max-width: 600px; margin: 0 auto">
+            <div class="w-actionbox-text" style="font-size: 26px; width: 100%; text-align: center">
+                <a id="learn-more" class="w-actionbox-button g-btn type_primary size_big" href="#rock" target="_blank"><span>Tìm hiểu thêm</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="rock"></div>
+<div class="l-submain">
+    <div class="l-submain-h i-cf" style="width: 60%">
+        <div id="cbp-so-scroller" class="cbp-so-scroller">
+            <section class="cbp-so-section">
+                <figure class="cbp-so-side cbp-so-side-left">
+                    <img src="/bluebee.com/themes/welcome/assets/img/2.png" alt="img01">
+                </figure>
+                <article class="cbp-so-side cbp-so-side-right">
+                    <h2>Blue-Bee</h2>
+                    <p> Chúng tôi là những sinh viên tại trường đại học, là học sinh chuẩn bị bước vào năm nhất thời sinh viên.
+                        Chúng tôi đã từng suy nghĩ và có nhu cầu về vấn đề môi trường học tập, tiếng nói của bản thân, những tài liệu cần thiết…</p>
+                </article>
+            </section>
+            <section class="cbp-so-section">
+                <article class="cbp-so-side cbp-so-side-right">
+                    <h2>Trăn trở</h2>
+                    <ul>
+                        <li>Làm thế nào để tiếp thu bài dễ dàng hơn?</li>
+                        <li>Làm thế nào để tìm được tài liệu mình cần?</li>
+                        <li>Làm thế nào để nhận lời khuyên từ những người cùng ngành?</li>
+                    </ul>
+                </article>
+                <figure class="cbp-so-side cbp-so-side-right">
+                    <img src="/bluebee.com/themes/welcome/assets/img/3.png" alt="img01">
+                </figure>
+            </section>
+            <section class="cbp-so-section">
+                <figure class="cbp-so-side cbp-so-side-left">
+                    <img src="/bluebee.com/themes/welcome/assets/img/1.png" alt="img01">
+                </figure>
+                <article class="cbp-so-side cbp-so-side-right">
+                    <h2>Lời khuyên</h2>
+                    <p>Hãy tới và cùng chúng tôi lập nên 1 cộng đồng sinh viên vững chắc. Những trăn trở đó cũng là những trăn trở của chúng tôi, hãy cùng lập nên 1 website
+                        hữu ích nhất với sinh viên</p>
+                </article>
+            </section>
+            <!--
+            <section class="cbp-so-section"  style="margin-bottom:0">
+                <article class="cbp-so-side cbp-so-side-left" style="padding: 0; width: 100%; min-height: 0; text-align: center;">
+                    <h2>Take A Tour</h2>
+                </article>
+            </section>
+            <section class="cbp-so-section">
+                <figure class="cbp-so-side cbp-so-side-right" style="width: 100%">
+                    <div class="w-video ratio_16-9">
+                        <div class="w-video-h">
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/-HJodK56EsU" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </figure>
+            </section>
+            -->
+            <div class="cbp-so-section">
+                <div class="cbp-so-side cbp-so-side-left" style="padding: 0; width: 100%; min-height: 0; text-align: center;">
+                    <a id="signup" href="#">
+                        <button class="g-btn type_secondary size_big" style="background-color: #429edb"><span>Đăng ký và trải nghiệm ngay!</span></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        new cbpScroller(document.getElementById('cbp-so-scroller'));
+        $(document).ready(function() {
+            $('#signup').click(function() {
+                $.smoothScroll({
+                    scrollTarget: '#',
+                    afterScroll: function() {
+                        $('div#signuparea').trigger('click');
+                    },
+                    speed: 800,
+                    easing: 'swing',
+                });
+                return false;
+            });
+            $('#learn-more').click(function() {
+                $.smoothScroll({
+                    scrollTarget: '#rock',
+                    speed: 800,
+                });
+                return false;
+            });
+        });
+    </script>
+</div>
+<!-- /MAIN -->
+            </div>
+            <!-- /MAIN -->
+        </div>
+    </div>
+    <!-- /CANVAS -->
+
+    <!-- FOOTER -->
+    <div class="l-footer type_normal" style="margin-top: 50px;">
+        <div class="l-footer-h">
+            <!-- subfooter: bottom -->
+            <div class="l-subfooter at_bottom">
+                <div class="l-subfooter-h i-cf">
+                    <div class="w-copyright">© 2014 All rights reserved. <a href='http://us-themes.com/'>BlueBee Team - K57CA - UET</a></div>
+                    <!-- NAV -->
+                   
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- /FOOTER -->
+
+    <a class="w-toplink" href="#"><i class="icon-angle-up" style="line-height: inherit"></i></a>
+
+    <script>
+        window.color_scheme = "color_11";
+        window.body_layout = "wide";
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<configuration date="2014/08/20" author="e.World Technology Ltd.">
+<project id="{1429D1BD-3A85-4D6F-BBCB-C8334BCE3C87}" file="" name="project1" product="PHPMaker" version="9.1" datetime="2014/08/20 20:33:28" languagefolder="phplang" userlevel="">
+<table id="tbl_dept" name="tbl_dept" caption="tbl dept" userlevel="" priv="1"/>
+<table id="tbl_doc" name="tbl_doc" caption="tbl doc" userlevel="" priv="1"/>
+<table id="tbl_faculty" name="tbl_faculty" caption="tbl faculty" userlevel="" priv="1"/>
+<table id="tbl_lesson" name="tbl_lesson" caption="tbl lesson" userlevel="" priv="1"/>
+<table id="tbl_subject" name="tbl_subject" caption="tbl subject" userlevel="" priv="1"/>
+<table id="tbl_subject_doc" name="tbl_subject_doc" caption="tbl subject doc" userlevel="" priv="1"/>
+<table id="tbl_subject_faculty" name="tbl_subject_faculty" caption="tbl subject faculty" userlevel="" priv="1"/>
+<table id="tbl_subject_group" name="tbl_subject_group" caption="tbl subject group" userlevel="" priv="1"/>
+<table id="tbl_subject_group_type" name="tbl_subject_group_type" caption="tbl subject group type" userlevel="" priv="1"/>
+<table id="tbl_subject_teacher" name="tbl_subject_teacher" caption="tbl subject teacher" userlevel="" priv="1"/>
+<table id="tbl_subject_type" name="tbl_subject_type" caption="tbl subject type" userlevel="" priv="1"/>
+<table id="tbl_teacher" name="tbl_teacher" caption="tbl teacher" userlevel="" priv="1"/>
+<table id="tbl_teacher_faculty_position" name="tbl_teacher_faculty_position" caption="tbl teacher faculty position" userlevel="" priv="1"/>
+<table id="tbl_university" name="tbl_university" caption="tbl university" userlevel="" priv="1"/>
+<table id="tbl_user" name="tbl_user" caption="tbl user" userlevel="" priv="1"/>
+</project></configuration>

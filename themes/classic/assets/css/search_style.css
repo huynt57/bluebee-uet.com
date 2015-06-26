@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/*
+    Created on : May 1, 2014, 3:50:19 PM
+    Author     : Sonvu
+*/
+
+#styleforsearchbar {
+    background-color: white;
+    min-height: 60px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+}
+#styleforsearchbar:focus {
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid black !important;
+}
+.clear-shadow {
+    clear: both;
+}
+.tabs {
+    width: 250px;
+    position: relative;
+    border-top: 1px solid #d8d8d8;
+}
+.tabs input {
+    position: absolute;
+    z-index: 1000;
+    width: 250px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+.tabs input#tab-2 {
+    top: 80px;
+}
+.tabs input#tab-3 {
+    top: 160px;
+}
+.tabs input#tab-4 {
+    top: 240px;
+}
+.tabs label {
+    background: #ebf0f0;
+    font-size: 18px;
+    line-height: 40px;
+    height: 80px;
+    position: relative;
+    padding: 0 20px;
+    display: block;
+    width: 80px;
+    color: #385c5b;
+    letter-spacing: .8px;
+    text-align: right;
+    float: left;
+    clear: both;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+.tabs input:hover + label {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.tabs label:first-of-type {
+    z-index: 4;
+}
+.tab-label-2 {
+    z-index: 3;
+}
+.tab-label-3 {
+    z-index: 2;
+}
+.tab-label-4 {
+    z-index: 1;
+}
+.tabs input:checked + label {
+    background: #fff;
+    z-index: 6;
+    border-left: 5px solid #429edb;
+}
+.tabs label:after {
+    content: '';
+    background: #fff;
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+}
+.clear-shadow {
+    clear: both;
+}
+.content {
+    background: #fff;
+    position: relative;
+    min-height: 600px;
+    z-index: 5;
+}
+.content .child {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0px 10px 40px;
+    z-index: 1;
+    display: none;
+    -webkit-transition: opacity linear 0.1s;
+    -moz-transition: opacity linear 0.1s;
+    -o-transition: opacity linear 0.1s;
+    -ms-transition: opacity linear 0.1s;
+    transition: opacity linear 0.1s;
+}
+.content div h2, .content div h3 {
+    color: #398080;
+}
+.content div p {
+    font-size: 14px;
+    line-height: 22px;
+    font-style: italic;
+    text-align: left;
+    margin: 0;
+    color: #777;
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    border-left: 8px solid rgba(63, 148, 148, 0.1);
+}
+.relative {
+    position: relative;
+}
+.float-left {
+    float: left;
+}
+.info {
+    margin-left: 10px;
+    float: left;
+}
+.search-avatar-view {
+    width: 70px;
+    height: 70px;
+    background-size: 35px;
+    border-radius: 50%;
+}
+.search-avatar-view img {
+    border-radius: 50%;
+}
+.add-to-a-class {
+    float: right;
+    margin-top: 20px;
+}
+.result-user {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.result-teacher {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.float_right {
+    float: right;
+}
+.result-class {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.navigation-teacher-tab {
+    margin-bottom: 10px;
+}
+.current-list {
+    margin-left: 0px !important;
+}
+.suggest-list {
+    display: none;
+    margin-left: 0px !important;
+}
+.suggest-teacher {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: white;
+}

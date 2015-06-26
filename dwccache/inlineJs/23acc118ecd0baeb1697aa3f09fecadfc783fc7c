@@ -1,0 +1,1 @@
+s:210:"<script type="text/javascript">jQuery(document).ready(function($){$('#popupad').hide();$('#popuptks').hide();var url=window.location.href;$('a[href="'+url+'"]').parent().parent().addClass('active');});</script>";

@@ -1,0 +1,1 @@
+s:301:"<script type="text/javascript">$(function(){var $theBody=$(".the-body");var wdHeight=window.innerHeight;var ftHeight=$("#footer").get(0).offsetHeight;var hdHeight=$("#header").get(0).offsetHeight;$theBody.css("min-height",wdHeight-hdHeight-ftHeight);console.log(wdHeight-hdHeight-ftHeight)});</script>";

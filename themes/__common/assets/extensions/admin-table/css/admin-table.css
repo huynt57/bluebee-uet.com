@@ -1,0 +1,93 @@
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]){
+	width:75px;
+}
+#theTable{
+	position:relative;
+}
+#theTable .loading-container
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#fff;
+	opacity:0.5;
+	z-index:9999;
+}
+#theTable .loading-container .loading
+{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:30px;
+	height:30px;
+	margin-left:-15px;
+	margin-right:-15px;
+	background-size:100% 100%;
+	background-image:url("../../img/loading3.gif" ?>);
+}
+#theTable table thead tr.thetitle th.orderable
+{
+	cursor:pointer;
+}
+#theTable table
+{
+	table-layout:fixed;
+	width:100%;
+}
+#theTable table td, #theTable table th
+{
+	color:#000;
+}
+.text_filter
+{
+	max-width:90%;
+}
+.table-draggable > tr
+{
+	cursor:move;
+}
+.pagination
+{
+	margin-top:0px;
+}
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
+{
+	margin-right:0px;
+}
+#theTable .modal .modal-header
+{
+	margin:0px !important;
+	padding-bottom:0px;
+	padding-top:0px;
+	border:none;
+}
+#theTable .modal .modal-body
+{
+	margin:0px !important;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#theTable .modal .modal-footer
+{
+	margin:0px !important;
+	padding-top:0px;
+	border:none;
+}
+#theTable .modal .modal-header h3
+{
+	font-size:22px;
+	font-weight:normal !important; 
+	text-align:center;
+}
+#theTable .modal .modal-header button
+{
+	font-size:18px;
+}
+#theTable .modal label
+{
+	font-weight: bold;
+}
+#theTable th
+{
+	font-weight: bold;
+}

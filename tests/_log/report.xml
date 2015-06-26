@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="1" assertions="1" failures="0" errors="0" time="0.502083">
+    <testcase file="Login_with_blank_passwordCept.php" name="login and see result (Login_with_blank_passwordCept.php)" assertions="1" time="0.502083"/>
+  </testsuite>
+  <testsuite name="functional" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+  <testsuite name="unit" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+</testsuites>

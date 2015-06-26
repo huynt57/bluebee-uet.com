@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://bluebee-uet.com/</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/listOfSubject</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/document</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/share/teacherListPage</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/listOfSubject/subject?subject_id='%20+%20this.subject_id%20+%20'</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/share/teacher?id='%20+%20this.teacher_id%20+%20'</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/term</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/aboutUs</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/viewDocument?doc_id='%20+%20this.doc_id%20+%20'</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://bluebee-uet.com/Contact</loc>
+  <changefreq>always</changefreq>
+</url>
+</urlset>
